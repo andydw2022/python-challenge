@@ -36,7 +36,7 @@ with open(electiondata, newline='\n', encoding='utf-8') as csvfile:
             VotesforKhan = VotesforKhan + 1
         elif row[2] == "Correy":
             VotesforCorrey = VotesforCorrey + 1
-        else:
+        elif row[2] == "O'Tooley":
             VotesforOTooley = VotesforOTooley + 1
     #
     #Now see who got the most votes and hence the winner
